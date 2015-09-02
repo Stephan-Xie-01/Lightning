@@ -10,11 +10,11 @@ int startY = 150;
 int endX = 0;
 int endY = 150;
 
-int randomColor = (int)(Math.random()*251);
+//int randomColor = (int)(Math.random()*251);
 void draw()
 {
 
-	stroke(randomColor,randomColor,randomColor);
+	stroke(250,(int)(Math.random()*250),(int)(Math.random()*250));
 
 	while(endY < 300){
 
